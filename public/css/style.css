@@ -1,0 +1,87 @@
+body {
+    font-family: Poppins, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.login-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px; /* Adjust this width as needed */
+    height: 300px;
+}
+
+.register-container{
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 400px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+h1 {
+    margin-bottom: 20px; 
+    text-align: center;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input {
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%; /* Make input fields take full width */
+    box-sizing: border-box; /* Include padding and border in the total width */
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%; /* Make button take full width */
+}
+
+button:hover {
+    background-color: #45a049;
+    border: black;
+}
+
+.checkbox-container {
+    display:inline;
+    align-items:start;
+    margin-top: 5px;
+}
+
+.checkbox-container label {
+    margin-right: 10px;
+}
+
+.checkbox-container .checkbox-input {
+    flex: 1; /* This will make the checkbox take up the remaining space */
+}
+
+
+
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 600px) {
+    .container {
+        width: 80%; /* Adjust the width for smaller screens */
+    }
+}
